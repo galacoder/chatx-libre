@@ -38,8 +38,8 @@ export default function Footer() {
         config.customFooter
       ) : (
         <>
-          <a href="https://librechat.ai" target="_blank" rel="noreferrer" className="underline">
-            {config?.appTitle || 'LibreChat'} {Constants.VERSION}
+          <a href="https://chat.sangletech.com" target="_blank" rel="noreferrer" className="underline">
+            {config?.appTitle || 'ChatX'} {Constants.VERSION}
           </a>
           {' - '} {localize('com_ui_new_footer')}
         </>
